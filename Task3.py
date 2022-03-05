@@ -4,9 +4,9 @@
 # Imports makeDictionary from the last task
 from Task1 import makeDictionary
 
-def AddItem():
+def AddItem(dict):
 
-    scoreDict = makeDictionary()
+    scoreDict = dict
 
     # Variables to store user inputs
     name = input("Enter the name of the person to add: ")

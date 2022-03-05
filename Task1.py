@@ -1,6 +1,8 @@
 # Revision Number 1 4Mar22
 ## Begin Derek Ruggirello (4Mar22)
 
+import Task4
+
 def makeDictionary():
 
     # Create lists from customer
@@ -18,6 +20,8 @@ def makeDictionary():
             scores.remove(value)
             # Breaks for loop in order to go to the next name
             break 
+
+    scoreDict = Task4.SortDict(scoreDict)
     return scoreDict
 
 # Revision Number 1 4Mar22
