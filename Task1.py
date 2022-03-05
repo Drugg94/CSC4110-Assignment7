@@ -18,6 +18,7 @@ def makeDictionary():
             scores.remove(value)
             # Breaks for loop in order to go to the next name
             break 
+    return scoreDict
 
 # Call make dictionary function
 makeDictionary()
