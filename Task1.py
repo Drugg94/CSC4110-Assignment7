@@ -20,9 +20,6 @@ def makeDictionary():
             break 
     return scoreDict
 
-# Call make dictionary function
-makeDictionary()
-
 # Revision Number 1 4Mar22
 ## End Derek Ruggirello
 # Zion Worship Cult / Ram Vuduku / Rich Eissen / the Zion Project
